@@ -1,0 +1,161 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+p{
+    line-height: 1.6em;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+.flexible-container{
+    display: flex;
+
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 6%;
+
+}
+
+.half-width img{
+    margin-left: 100px;
+    height: 500px;
+    width: 400px;
+}
+
+.header-title{
+    border-left: 5px solid;
+    border-image: linear-gradient(yellowgreen, yellow);
+    border-image-slice: 1;
+}
+.header-title h1{
+    font-family: 'Noto Serif', serif;
+    font-size: 50px;
+    margin-left: 2%;
+
+}
+.color{
+    color: orange;
+}
+
+.button{
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.button-link{
+    text-decoration: none;
+    padding: 16px 30px;
+    background-color: rgb(255, 99, 71);
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+.mission-heading{
+    text-align: center;
+    font-size: 50px;
+}
+
+.heading{
+    text-align: center;
+    font-size: 50px;
+}
+.web-mission{
+    width: 25%;
+    margin: 0 4%;
+    box-shadow: 10px 10px 40px #9f9d9d;
+    padding: 2%;
+    border-radius: 10px;
+}
+.web-mission img{
+    width: 40%;
+}
+#box1-color{
+    background-color: #dbf4f7;
+}
+#box2-color{
+    background-color: #f8e5e5;
+
+}
+#box3-color{
+    background-color: #f7f4ef;
+}
+
+.heading2{
+    font-size: 50px;
+}
+.second-width{
+    width: 35%;
+    margin-left: 150px;
+}
+.second-width img{
+    width: 95%;
+
+}
+.contact-form{
+    width: 30%;
+    margin: 2% 6%;
+}
+.contact-form{
+    margin-left: 150px;
+}
+
+.contact-form input{
+    display: block;
+    margin-bottom: 20px;
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+.contact-form textarea{
+    width: 400px;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.contact-form img{
+    width: 100%;
+    margin-left: 80px;
+    height: 400px;
+
+
+}
+.contact-form button{
+    width: 150px;
+    height: 40px;
+    color: white;
+    background-color: #3da2b4;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    display: block;
+}
+.contact-form button:hover{
+    background-image:linear-gradient(#114f86, #4383cb);
+
+}
+.footer-color{
+    background-color: rgb(65, 54, 54);
+    text-align: center;
+    font-family: cursive;
+    padding: 2%;
+}
+.footer-heading {
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+}
+.red-color{
+     color: #FF5959;
+ }
+.footer-paragraph{
+    color: rgb(196, 190, 190);
+}
+
+
